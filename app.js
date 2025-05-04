@@ -84,9 +84,7 @@ const sessionOptions = {
 
 
 
-// app.get("/", (req, res)=>{
-//     res.send("i am listning");
-// });
+
 
 app.use(session(sessionOptions));
 app.use(flash());// use before routes
