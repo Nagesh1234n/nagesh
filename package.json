@@ -6,7 +6,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm install --legacy-peer-deps",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +13,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@cloudinary/react": "^1.14.1",
     "canvas": "^3.1.0",
     "cloudinary": "^2.6.1",
     "connect-flash": "^0.1.1",
